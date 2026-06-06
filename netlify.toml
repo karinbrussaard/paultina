@@ -1,0 +1,5 @@
+[build]
+  publish = "."
+
+# Formuliermeldingen naar e-mail stel je in via het Netlify-dashboard:
+# Site configuration > Notifications > Form submission notifications

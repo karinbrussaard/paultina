@@ -1,0 +1,50 @@
+PAUL & TINA TROUWSITE - NETLIFY SETUP
+
+Doelmail voor formuliermeldingen:
+info@paul-tina.nl
+
+STAP 1 - SITE UPLOADEN
+1. Ga naar https://app.netlify.com
+2. Log in of maak een account.
+3. Kies: Add new site / Import or deploy.
+4. Kies: Deploy manually.
+5. Sleep de HELE map 'paul-tina-trouwerij-site-netlify-klaar' naar Netlify.
+6. Wacht tot de site online staat.
+
+STAP 2 - FORMULIEREN TESTEN
+1. Open de Netlify-link van de site.
+2. Vul elk formulier één keer testmatig in:
+   - iets-doen-op-de-dag
+   - trouwkrant-bijdrage
+   - cadeau-idee
+3. Ga in Netlify naar de site.
+4. Klik op Forms.
+5. Controleer of de testinzendingen zichtbaar zijn.
+
+STAP 3 - MAILMELDINGEN AANZETTEN
+1. Ga in Netlify naar je site.
+2. Ga naar Site configuration / Project configuration.
+3. Ga naar Notifications.
+4. Kies Form submission notifications.
+5. Voeg dit e-mailadres toe:
+   info@paul-tina.nl
+6. Kies of je meldingen voor alle formulieren wilt ontvangen.
+7. Sla op.
+8. Vul daarna opnieuw een formulier in om te testen of de mail binnenkomt.
+
+STAP 4 - DOMEIN KOPPELEN
+1. Koop een domein, bijvoorbeeld:
+   - paulentina.nl
+   - paul-en-tina.nl
+   - trouwenpaulentina.nl
+2. Ga in Netlify naar Domain management.
+3. Kies Add domain.
+4. Vul je domein in.
+5. Volg de DNS-instructies van Netlify.
+6. Wacht tot Netlify aangeeft dat het domein goed gekoppeld is.
+
+BELANGRIJK
+- Formulieren werken pas goed nadat de site op Netlify is geplaatst.
+- De foto-upload voor de trouwkrant werkt via het formulier 'trouwkrant-bijdrage'.
+- Als foto's te groot zijn, kunnen gasten ze ook appen of mailen naar Laura/Karin.
+- De chatfunctie is verwijderd. Er is dus geen Supabase nodig.
