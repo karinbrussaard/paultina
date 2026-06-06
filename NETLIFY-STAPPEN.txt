@@ -53,3 +53,9 @@ BELANGRIJK
 EXTRA
 - Alle formulieren sturen bezoekers na verzenden naar /bedankt.html.
 - Zie je na formulierverzending toch een 404? Controleer dan of bedankt.html ook in GitHub staat en of Netlify opnieuw gedeployed is.
+
+
+SPAMMELDINGEN
+- De extra honeypot-spambeveiliging is uit de formulieren gehaald.
+- Als oude testinzendingen nog onder Spam staan, markeer ze eventueel als Not spam.
+- Test daarna opnieuw met een nieuwe inzending.
