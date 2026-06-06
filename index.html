@@ -716,7 +716,7 @@
             <div class="icon-badge teal">✉️</div>
             <h3>Aanmelden</h3>
             <p>Laat ons weten wat je ongeveer wilt doen. Dan kunnen wij daar rekening mee houden in de planning van de dag.</p>
-            <form name="iets-doen-op-de-dag" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <form name="iets-doen-op-de-dag" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/bedankt.html">
               <input type="hidden" name="form-name" value="iets-doen-op-de-dag" />
               <p style="display:none;"><label>Niet invullen: <input name="bot-field" /></label></p>
               <label>
@@ -772,7 +772,7 @@
             <p>We willen Paul en Tina graag een persoonlijk en blijvend cadeau geven: een echte trouwkrant vol verhalen, foto’s en herinneringen van de mensen die belangrijk voor hen zijn.</p>
             <p>Willen jullie een foto, of een paar foto’s, naar ons sturen met een stukje tekst erbij? Dat mag iets liefs zijn, iets grappigs, iets ontroerends, iets hilarisch of gewoon een mooie herinnering die jullie met Paul en Tina delen.</p>
             <p>Van al jullie bijdragen maken wij samen een bijzondere trouwkrant. Een cadeau waar ze op de dag zelf van kunnen genieten, maar dat ze ook later nog vaak kunnen terugpakken.</p>
-            <form name="trouwkrant-bijdrage" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" style="margin-top:18px;">
+            <form name="trouwkrant-bijdrage" method="POST" data-netlify="true" enctype="multipart/form-data" netlify-honeypot="bot-field" enctype="multipart/form-data" style="margin-top:18px;" action="/bedankt.html">
               <input type="hidden" name="form-name" value="trouwkrant-bijdrage" />
               <p style="display:none;"><label>Niet invullen: <input name="bot-field" /></label></p>
               <label>
@@ -822,7 +822,7 @@
             <div class="icon-badge teal">💡</div>
             <h3>Geef je cadeau-idee door</h3>
             <p>Stuur je idee rechtstreeks naar ons. Dan kunnen wij alle suggesties verzamelen en kijken wat het beste bij Paul en Tina past.</p>
-            <form name="cadeau-idee" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <form name="cadeau-idee" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/bedankt.html">
               <input type="hidden" name="form-name" value="cadeau-idee" />
               <p style="display:none;"><label>Niet invullen: <input name="bot-field" /></label></p>
               <label>

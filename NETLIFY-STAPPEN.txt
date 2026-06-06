@@ -48,3 +48,8 @@ BELANGRIJK
 - De foto-upload voor de trouwkrant werkt via het formulier 'trouwkrant-bijdrage'.
 - Als foto's te groot zijn, kunnen gasten ze ook appen of mailen naar Laura/Karin.
 - De chatfunctie is verwijderd. Er is dus geen Supabase nodig.
+
+
+EXTRA
+- Alle formulieren sturen bezoekers na verzenden naar /bedankt.html.
+- Zie je na formulierverzending toch een 404? Controleer dan of bedankt.html ook in GitHub staat en of Netlify opnieuw gedeployed is.
